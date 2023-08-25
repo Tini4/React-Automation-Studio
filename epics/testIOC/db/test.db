@@ -205,3 +205,10 @@ record(acalcout, "$(device):initBinaryWaveform") {
     field(OUT, "$(device):binaryWaveform PP")
     field(PINI, "YES")
 }
+
+record(waveform, "$(device):charWaveform") {
+    field(DESC, "Waveform with characters")
+    field(NELM, "256")
+    field(FTVL, "CHAR")
+    field(PINI, "YES")
+}
