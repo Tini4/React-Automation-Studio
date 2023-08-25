@@ -20,6 +20,7 @@ import Example from "./components/staging/Example/Example";
 import Example1 from "./components/staging/Example/Example1";
 import Example2 from "./components/staging/Example/Example2";
 import Example3 from "./components/staging/Example/Example3";
+import Example4 from "./components/staging/Example/Example4";
 //system
 import MainDashboard from "./components/UI/MainDashboard";
 import Login from "./components/SystemComponents/Login";
@@ -95,6 +96,7 @@ const Routes = (props) => {
         <ProtectedRoute path="/Example1" component={Example1} />
         <ProtectedRoute path="/Example2" component={Example2} />
         <ProtectedRoute path="/Example3" component={Example3} />
+        <ProtectedRoute path="/Example4" component={Example4} />
         {/*staging end*/}
       </Switch>
     </BrowserRouter>
